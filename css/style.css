@@ -8,17 +8,18 @@
 body {
   background-color: #ffffff;
   color: var(--primary-tex-color);
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   letter-spacing: 0.03em;
   line-height: 1.71;
 }
 
 .logo-main {
   color: #000000;
-  font-family: "Raleway";
+  font-family: 'Raleway';
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
+  letter-spacing: 0.03em;
 }
 
 .logoaccent {
@@ -36,7 +37,7 @@ ul {
 /* Site-nav */
 
 .site-nav a {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-style: normal;
 }
 
@@ -61,7 +62,7 @@ ul {
 /* Auth-nav */
 
 .auth-nav.list {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -112,6 +113,7 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
+  letter-spacing: 0.03em;
 }
 
 .features-text {
@@ -129,14 +131,16 @@ ul {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
+  letter-spacing: 0.03em;
 }
 
 /* Team */
 
-.team p {
+.team-text {
   font-size: 16px;
   line-height: 1.8;
   text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .team-title {
@@ -144,6 +148,7 @@ ul {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .team-list {
@@ -152,6 +157,7 @@ ul {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
+  letter-spacing: 0.03em;
 }
 
 /* Button */
@@ -175,7 +181,7 @@ ul {
 
 .logo-footer {
   color: var(--white-color);
-  font-family: "Raleway";
+  font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -201,6 +207,7 @@ ul {
 .contacts {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
+  letter-spacing: 0.03em;
 }
 
 .contacts:hover,
@@ -212,7 +219,7 @@ ul {
 
 .auth-nav.list a {
   color: var(--primary-tex-color);
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
