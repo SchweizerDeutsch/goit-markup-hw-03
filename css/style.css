@@ -365,8 +365,6 @@ ul {
 .portfolio-main-section {
   padding-bottom: 94px;
 }
-.button-filter {
-}
 
 .portfolio-filter {
   display: flex;
@@ -419,6 +417,9 @@ ul {
   line-height: 1.62;
   text-align: center;
   cursor: pointer;
+  letter-spacing: 0.03em;
+  padding: 6px 22px;
+  border-radius: 4px;
 }
 
 .button-primary:hover,
@@ -446,7 +447,6 @@ ul {
   font-size: 16px;
   line-height: 2;
   letter-spacing: 0.03em;
-  padding-bottom: ;
 }
 
 .portfolio-footer {
