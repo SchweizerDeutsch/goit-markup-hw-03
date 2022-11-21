@@ -65,7 +65,7 @@ body {
 }
 
 .page-header {
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
 }
 
 .page-header-container {
@@ -151,6 +151,7 @@ ul {
 
 .contacts-address {
   color: var(--white-color);
+  text-decoration: none;
 }
 
 .contacts-address:hover,
@@ -159,6 +160,20 @@ ul {
 }
 
 /* Hero */
+
+.hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 
 .hero-container {
   display: flex;
@@ -193,9 +208,9 @@ ul {
 
 /* Feautures */
 
-.container-features {
+.features {
   padding-top: 94px;
-  padding-bottom: 94px;
+  padding-bottom: 47px;
 }
 
 .features-listwrapper {
@@ -226,6 +241,11 @@ ul {
 
 /* Example */
 
+.sphere {
+  padding-top: 47px;
+  padding-bottom: 94px;
+}
+
 .sphere-pictures {
   display: flex;
   justify-content: space-between;
@@ -254,6 +274,7 @@ ul {
 
 .team-card {
   background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
 }
@@ -377,10 +398,7 @@ ul {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
-}
-
-.portfolio-filter-button:not(:last-child) {
-  margin-right: 8px;
+  column-gap: 8px;
 }
 
 .portfolio-filter-button {
@@ -390,17 +408,18 @@ ul {
 .work {
   display: flex;
   flex-wrap: wrap;
+  gap: 30px;
+}
+
+.work-list-portfolio {
+  padding: 20px 24px;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
 }
 
 .work-portfolio {
-  border: 1px solid #eeeeee;
-  width: 370px;
-  margin-bottom: 24px;
-  margin-right: 24px;
-}
-
-.work-list-pictures {
-  margin-bottom: 20px;
+  flex-basis: calc((100% - 2 * 30px) / 3);
 }
 
 .auth-nav.list a {
@@ -442,8 +461,6 @@ ul {
 
 .work-link {
   text-decoration: none;
-  padding-top: 0;
-  padding-bottom: 20px;
 }
 
 .work-list {
@@ -451,6 +468,7 @@ ul {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  margin-bottom: 4px;
 }
 
 .work-text {
@@ -458,8 +476,6 @@ ul {
   font-size: 16px;
   line-height: 2;
   letter-spacing: 0.03em;
-  margin-top: 4px;
-  margin-bottom: 20px;
 }
 
 .portfolio-footer {
